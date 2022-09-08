@@ -4,22 +4,11 @@
         height: 50px;
         background-color: yellow;
     }
+    
 }
 
-.info-container {
-    display: flex;
-    flex-direction: column;
 
-}
-.card-subtitle{
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 1rem 0;
-}
 
-.info{
-    text-align: center;
-}
 
     
 

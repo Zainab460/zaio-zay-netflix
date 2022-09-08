@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,53 +12,112 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 
-    
+
 
 
 </head>
+
 <body>
-<!--navigation bar -->
-<div class="test">IN TABLET MODE</div>
+    <!--BANNER START -->
+    <div class="test">IN TABLET MODE</div>
     <div class="banner-wrap">
         <div class="overlay"></div>
         <div class="navbar">
-           <img src="./assets/GXWy-logo.png" alt="Netflix cover image">
-           <a href="https://www.netflix.com/za/login" target="_blank">Sign In</a>
+            <img src="./assets/GXWy-logo.png" alt="Netflix cover image">
+            <a href="https://www.netflix.com/za/login" target="_blank">Sign In</a>
         </div>
-         <div class="banner-container">
-           <h1 class="card-title">Unlimited movies, TV <br/>shows, and more</h1>
-           <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
-         
-           <!--get started form  -->
-           <form>
-           <h3 class="emailFORMtitle">Ready to watch? Enter your email to create or restart your membership</h3>
-
-           <div class="getStartedForm">
-            <input type="text" placeholder="Email Address">
-            <button type="button">Get Started ></button>
+        <div class="banner-container">
+            <h1 class="card-title">Unlimited movies, TV <br />shows, and more.</h1>
+            <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+            <h3 class="emailFORMtitle">Ready to watch? Enter your email to create or restart your membership</h3>
+            <!--get started form  -->
+             <form class="getStartedForm">
+                <input type="text" placeholder="Email Address">
+                <button type="button">Get Started ></button>
             </form>
-           </div>
-           
-    </div>
+        </div>
 
+                
+               
+
+    </div>
+    <!-- BANNER END -->
+
+
+<section class="first">
     <div class="info-container">
 
-    <div class="info">
-        <h1 class="card-title">Enjoy on your TV.</h1>
-        <p class="card-subtitle">Watch on Smart TVs, Playstation, XBox,<br/> Chromecast, Apple TVs, Blu-ray players,
-       and<br/> more
-        </p>
-    </div>
-    <div class="tv-container">
-        <!-- inline video -->
-     <img src="./assets/television.jpeg">
-     <video class="our-story-card-video" data-uia="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
-         <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
-     </video>
-    </div>
+        <div class="info">
+            <h1>Enjoy on your TV.</h1>
+            <p>Watch on Smart TVs, Playstation, XBox,<br /> Chromecast, Apple TVs, Blu-ray
+                players,
+                and<br /> more
+            </p>
+        </div>
+        <div class="tv-container">
+            <!-- inline video -->
+            <img src="./assets/television.jpeg">
+            <video class="our-story-card-video" data-uia="our-story-card-video" autoplay="" playsinline="" muted=""
+                loop="">
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                    type="video/mp4">
+            </video>
+        </div>
 
     </div>
-    <!--footer -->
+</section>
+
+<section class="second">
+    <div class="imagecontainer">
+        <div class="main-pic">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </div>
+        <div class="sml-block">
+            <div class="sml-pic">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="">
+                <div class="word-nxt2-pic">
+                    <p>Stranger Things</p>
+                    <span>Downloading...</span>
+                </div>
+            </div>
+            
+               
+            <div class="move-pic">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif">
+            </div>
+        </div>
+    </div>
+    
+    <div class="info nation">
+        <h1>Download your shows <br/>to watch offline.</h1>
+        <p>Save your favorites easily and always have <br/> something to watch.</p>
+    </div>
+
+</section>
+
+<section class="third">
+    <div class="thrice">
+    <div class="info">
+        <h1>Watch everywhere.</h1>
+        <p>Stream Unlimited movies and Tv shows on <br/>your phone, tablet, laptop, and TV.</p>
+    </div>
+</div>
+</section>
+
+<section class="four">
+<div class="adventure">
+    <div class="crt">
+        <img src="https://occ-0-4036-34.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png?r=11f" alt="">
+    </div>
+    <div class="info">
+        <h1>Create profiles for kids.</h1>
+        <p>Send kids on adventures with their favorite<br/>characters in a space made just for them—<br/>free with your membership.</p>
+    </div>
+</div>
+</section>
+
+<section class="five-footer">
+<div class="footerside">
     <div class="footer">
         <div class="footerITEMS">
             <div class="FOOTERTOP">
@@ -81,19 +141,27 @@
                 <li>Legal Notices</li>
                 <li>Only on Netflix</li>
             </ul>
+            
             <div class="language">
-                
-                    <i><i class="material-icons">language</i></i>
-                    <select name="languages" id="languages">
-                        <option value="English">English</option>
-                        <option value="Swahili">Swahili</option>
 
-                    </select>
-             </div>
+                <i><i class="material-icons">language</i></i>
+                <select name="languages" id="languages">
+                    <option value="English">English</option>
+                    <option value="Swahili">Swahili</option>
 
-             <p class="footercountry">Netflix Zaio</p>
+                </select>
+            </div>
+
+            <p class="footercountry">Netflix Zaio</p>
 
         </div>
-     </div>
+    </div>
+</div>
+</section>
+
+
+    <!--footer -->
+    
 </body>
+
 </html>
