@@ -28,7 +28,7 @@ body {
     height: 36px;
 }
 .navbar > a{
-    padding:6px 15px ;
+    padding:9px 15px ;
     color: white;
     background: red;
     text-decoration: none;
@@ -74,16 +74,18 @@ body {
     margin-bottom: 0.5rem;
     line-height: 1.1;
     font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .banner-container h2 {
     font-size: 25px;
     font-weight: 500;
+    padding-bottom: 40px;
 }
 
 .emailFORMtitle {
     font-size:18px;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: 20px;
 }
 .getStartedForm {
@@ -94,7 +96,7 @@ body {
 
 .getStartedForm input{
     align-items: center;
-    height:55px;
+    height:65px;
     width: 450px;
     padding-left: 10px;
     font-size: 15px;
@@ -105,7 +107,7 @@ body {
     align-items: center;
      background-color: red;
      color: white;
-     height: 54px;
+     height: 65px;
      width: 190px;
      border: none;
      border-left: 1px solid ;
@@ -277,27 +279,27 @@ body {
     background: black;
     color: white;
     position: relative;
-    border-bottom: 8px solid rgb(34, 34, 34);
 }
 .footerside{
-    margin: 0px 130px;
+    margin: 0px 100px;
     padding: 70px 45px;
 }
-.FOOTERTOP {
-    margin:30px
-}
+
 .footer ul li, .questionstitle{
     color: grey;
 }
-
+.about {
+    margin:30px 0px;
+}
+.footer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
 .footer ul li:hover{
       text-decoration: underline;
       cursor: pointer;
-}
-.questionstitle:hover{
-    text-decoration: underline;
-    cursor: pointer;
-
 }
 .footerlinks {
     list-style-type: none;
@@ -311,39 +313,44 @@ body {
     
  }
 
-.language {
-    height: 53px;
-    width: 142px;
-    color: grey;
+.language{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    border: 1px solid #999;
-    padding:0 10px;
-    margin-top: 30px;
+    border: 2px solid grey;
     border-radius: 3px;
-
-
+    width: 13%;
+    height: 100%;
+    margin-left: 100px;
+}
+.language >i {
+    padding-left: 10px;
 }
 
+.eng-drop {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
 .language select {
-    padding: 10px;
+    padding: 16px;
     width: 100%;
     border: none;
     appearance: none;
-    background: black;
+    background: white;
     color: #999;
-    background: url(./assets/baseline_arrow_drop_down_black_24dp.png) no-repeat;
+    outline: none;
+    border: none;
+    background: black;
     
 
 }
-
-.footercountry {
-    font-size:13px;
-    margin-top:54px;
+.code-company {
+    font-size: 13px;
     color: #999;
-
+    margin-left: 100px;
+    margin-top: 20px;
 }
+
 .test{
     display: none;
 }
