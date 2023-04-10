@@ -122,7 +122,7 @@ body {
     color: white;
     position: relative;
     padding: 70px 45px;
-    border-bottom: 8px solid rgb(34, 34, 34);
+    /* border-bottom: 8px solid rgb(34, 34, 34); */
 }
 .info-container{
     display: flex;
@@ -141,12 +141,14 @@ body {
     font-size: 50px;
     font-weight: 700;
     margin-top: 8px;
+    
 }
 .info p{
     font-size: 25px;
     font-weight: 500;
     margin-top: 16px;
     margin-bottom: 6.5px;
+    color: rgb(89, 89, 211);
 }
 
 .tv-container{
@@ -177,7 +179,7 @@ body {
     background:black;
     color: white;
     padding: 70px 45px;
-    border-bottom: 8px solid rgb(34, 34, 34);
+    /* border-bottom: 8px solid rgb(34, 34, 34); */
 }
 
 .imagecontainer {
@@ -244,7 +246,7 @@ body {
     color: white;
     position: relative;
     padding: 70px 45px;
-    border-bottom: 8px solid rgb(34, 34, 34);
+    /* border-bottom: 8px solid rgb(34, 34, 34); */
 }
 .thrice {
     padding-left: 20px;
@@ -258,7 +260,7 @@ body {
     color: white;
     position: relative;
     padding: 70px 45px;
-    border-bottom: 8px solid rgb(34, 34, 34);
+    /* border-bottom: 8px solid rgb(34, 34, 34); */
 }
 .adventure {
     display: flex;
@@ -346,7 +348,7 @@ body {
 }
 .code-company {
     font-size: 13px;
-    color: #999;
+    color: #c05050;
     margin-left: 100px;
     margin-top: 20px;
 }
